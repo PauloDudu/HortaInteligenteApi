@@ -9,7 +9,7 @@ const Pool = require("pg").Pool;
 // });
 
 const pool = new Pool({
-    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
+    connectionString: "postgres://default:RVqdB0oCri1t@ep-old-dawn-a4zamoyn-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require",
 })
 
 pool.connect((err) => {
