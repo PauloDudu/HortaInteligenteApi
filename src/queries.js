@@ -1,4 +1,4 @@
-const getUsuario = "SELECT * FROM horta.usuario";
+const getUsuario = "SELECT * FROM usuario";
 
 module.exports = {
     getUsuario
